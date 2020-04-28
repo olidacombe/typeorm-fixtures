@@ -15,8 +15,7 @@
     "test": "nyc mocha",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
-    "commit": "npx git-cz",
-    "install": "npm run build"
+    "commit": "npx git-cz"
   },
   "keywords": [
     "typeorm",

@@ -11,7 +11,7 @@ lib-cov
 coverage
 mochawesome-report
 node_modules
-dist
+#dist
 .nyc_output
 .npm
 
