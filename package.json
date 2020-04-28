@@ -9,7 +9,7 @@
   "scripts": {
     "postinstall": "opencollective-postinstall",
     "build": "npm run clean && tsc -p tsconfig.json",
-    "clean": "trash dist",
+    "clean": "rm -r dist",
     "lint:fix": "prettier src/**/*.ts --write && tslint --fix --project .",
     "lint": "tslint --project . && prettier src/**/*.ts --list-different",
     "test": "nyc mocha",
